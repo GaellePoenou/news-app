@@ -1,14 +1,29 @@
-Application d'Actualités
+# Application d'Actualités avec React et Vite
 
-# React + Vite
-Cette application d'actualités utilise React pour créer une interface utilisateur réactive et moderne. Elle permet aux utilisateurs de suivre les dernières actualités dans différentes catégories telles que la technologie, les affaires, la santé, le sport et le divertissement.
+## Description
 
-Fonctionnalités clés :
+Cette application d'actualités, développée avec React et Vite, offre une interface utilisateur réactive et moderne. Les utilisateurs peuvent suivre les dernières actualités dans diverses catégories telles que la technologie, les affaires, la santé, le sport et le divertissement.
 
-Navigation Intuitive : La barre de navigation propose des catégories pour permettre aux utilisateurs de sélectionner leurs domaines d'intérêt spécifiques.
+## Fonctionnalités Principales
 
-Mises à Jour en Temps Réel : Les actualités sont récupérées en temps réel depuis l'API NewsAPI, assurant que les utilisateurs ont accès aux dernières informations.
+- **Navigation Intuitive** : Barre de navigation avec des catégories pour permettre aux utilisateurs de choisir leurs domaines d'intérêt.
+- **Mises à Jour en Temps Réel** : Actualités récupérées en temps réel depuis l'API NewsAPI pour assurer l'accès aux dernières informations.
+- **Gestion des Articles Manquants** : Une gestion intelligente évite l'affichage d'articles sans titre, description ou lien, garantissant une expérience utilisateur fluide.
 
-Gestion des Articles Manquants : Une gestion intelligente est mise en place pour éviter l'affichage d'articles sans titre, description ou lien. Cela garantit une expérience utilisateur fluide.
+## Technologies Utilisées
 
-Malheureusement l'API ne permet pas de récupérées correctement les actualités en français 
+- React.js
+- Vite
+- API NewsAPI, en anglais 
+
+## Installation
+
+1. **Clonez le dépôt** : `git clone https://github.com/votre-utilisateur/application-actualites.git`
+2. **Installez les dépendances** : `npm install`
+3. **Lancez l'application** : `npm start`
+
+## Utilisation
+
+1. Choisissez une catégorie dans la barre de navigation.
+2. Explorez les dernières actualités dans le domaine sélectionné.
+3. Profitez d'une expérience utilisateur fluide avec une mise à jour en temps réel.
